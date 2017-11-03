@@ -1,0 +1,94 @@
+/**
+ *	Adventure Works Cycles AG - Configurator
+ *
+ *	author Janick Michot
+ *	date 12.10.2017
+ *	version	1.0.0
+ *
+ */
+ 
+
+.configurator {
+	height: 500px;
+	background-color: #bdb099; /* default */
+}
+
+/** left, rightbar **/
+.configurator .attributes {
+	/*background: rgba(0, 0, 0, 0.1);*/
+	height: 100%;
+}
+.configurator .attribute {
+	position: relative;
+	text-align: center;
+	height: 33.3%;
+}
+.configurator .attribute .icon {
+	font-size: 40px;
+	color: #fff;
+}
+
+/** overlay **/
+.configurator .preview,
+.configurator .dotted-line {
+	height: 100%;
+	position: relative;
+}
+.configurator .dotted-line:before {
+	background-size: 100%;
+}
+.configurator .preview .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+}
+
+/* product */
+.configurator .product {
+	width: 600px;
+	height: 400px;
+	top: 60%;
+}
+.configurator .product img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.configurator .product .part {
+	display:none;
+}
+
+
+/** add to cart **/
+.price-calculation tr {
+	border-left-style: none;
+	border-right-style: none;
+}
+.price-calculation .base {
+	color: #000;
+}
+
+.add-to-cart {
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Oxygen', sans-serif;
+}
+.add-to-cart:hover {
+	background-color: #667e65;
+}
+
+
+
+/** -	-	-	snip	-	-	- **/
+
+/**	Extrafarben um zu testen **/
+.saturate {-webkit-filter: saturate(3); filter: saturate(3);}
+.grayscale {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+.contrast {-webkit-filter: contrast(160%); filter: contrast(160%);}
+.brightness {-webkit-filter: brightness(0.25); filter: brightness(0.25);}
+.blur {-webkit-filter: blur(3px); filter: blur(3px);}
+.invert {-webkit-filter: invert(100%); filter: invert(100%);}
+.sepia {-webkit-filter: sepia(100%); filter: sepia(100%);}
+.huerotate {-webkit-filter: hue-rotate(180deg); filter: hue-rotate(180deg);}
