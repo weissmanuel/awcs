@@ -1,16 +1,26 @@
 {
-	"Name" : "awcs-shop",
-	"version" : "1.0.0",
-	"scrips" :{
-		"start" : "node server.js"
-	},
-	"dependencies":{
-		"express" : "expressjs/express"
-	},
-	"author" : "Manuel Weiss",
-	"license" :
-  		{ "type" : "ISC"
-  		, "url" : "https://opensource.org/licenses/ISC"
-  	}
-
+  "name": "node-js-getting-started",
+  "version": "0.2.6",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weissmanuel/awcs.git"
+  },
+  "license": "MIT"
 }
