@@ -5,8 +5,12 @@
 		"start" : "node server.js"
 	},
 	"dependencies":{
-		"express" : "4.13.3"
+		"express" : "expressjs/express"
 	},
 	"author" : "Manuel Weiss",
-	"licence" : "ISC"
+	"license" :
+  		{ "type" : "ISC"
+  		, "url" : "https://opensource.org/licenses/ISC"
+  	}
+
 }
